@@ -7,7 +7,7 @@
 
 2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
 
-    
+    SELECT office_address, COUNT(*) AS Numero_Insegnanti FROM teachers GROUP BY office_address;
 
 
 ------------------------------------------------------------------------------------------------------------
