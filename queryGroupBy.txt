@@ -1,6 +1,6 @@
 1. Contare quanti iscritti ci sono stati ogni anno
 
-    
+    SELECT `year`, COUNT(*) AS Numero_Iscritti FROM `courses` GROUP BY `year`;
 
 
 ------------------------------------------------------------------------------------------------------------
